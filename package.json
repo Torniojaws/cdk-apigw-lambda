@@ -1,0 +1,31 @@
+{
+  "name": "cdk-apigw-lambda",
+  "version": "1.0.0",
+  "description": "CDK with API Gateway + Lambda",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Torniojaws/cdk-apigw-lambda.git"
+  },
+  "keywords": [
+    "typescript",
+    "cdk",
+    "api-gateway",
+    "lambda"
+  ],
+  "author": "Juha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Torniojaws/cdk-apigw-lambda/issues"
+  },
+  "homepage": "https://github.com/Torniojaws/cdk-apigw-lambda#readme",
+  "dependencies": {
+    "aws-cdk-lib": "^2.27.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.100"
+  }
+}
