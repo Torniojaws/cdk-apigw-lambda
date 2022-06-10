@@ -26,5 +26,10 @@ export class ApiStack extends Stack {
     // To add a sub-path, just add a resource + method to the "parent"
     // const subPath = coolEndpoint.addResource('subpath'); // Add endpoint /coolness/subpath
     // subpath.addMethod('POST', addSomethingLambdaFn); // Assoc a lambda to POST /coolness/subpath
+    
+    // To handle a path parameter, curly braces are used:
+    // const paramPath = coolEndpoint.addResource('{id}'); // Add endpoint /coolness/:id
+    // paramPath.addMethod('GET', getSpecificItemLambda); // Fetch by id, eg. GET /coolness/123
+    // where :id is accessible in the handler using: const id = event.pathParameters.id || '0';
   }
 }
