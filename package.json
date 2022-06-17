@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Torniojaws/cdk-apigw-lambda#readme",
   "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.112.0",
     "aws-cdk-lib": "^2.27.0"
   },
   "devDependencies": {
